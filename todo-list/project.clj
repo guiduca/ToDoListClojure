@@ -17,8 +17,8 @@
                  [cljsjs/react "15.3.1-0"]
                  [cljsjs/react-dom "15.3.1-0"]
                  #_[org.omcljs/om "1.0.0-alpha46"]
-                 #_[reagent "0.6.0"]]
-
+                 #_[reagent "0.6.0"]
+                 ]
 
   :plugins [[lein-figwheel "0.5.9"]
             [lein-cljsbuild "1.1.5" :exclusions [org.clojure/clojure]]]
@@ -41,7 +41,7 @@
                                     :asset-path "js/compiled/devcards_out"
                                     :output-to  "resources/public/js/compiled/todo_list_devcards.js"
                                     :output-dir "resources/public/js/compiled/devcards_out"
-                                    :source-map-timestamp true}}
+                                    :source-map-timestamp true }}
                        {:id "dev"
                         :source-paths ["src"]
                         :figwheel true
@@ -49,7 +49,7 @@
                                    :asset-path "js/compiled/out"
                                    :output-to  "resources/public/js/compiled/todo_list.js"
                                    :output-dir "resources/public/js/compiled/out"
-                                   :source-map-timestamp true}}
+                                   :source-map-timestamp true }}
                        {:id "prod"
                         :source-paths ["src"]
                         :compiler {:main       "todo-list.core"
@@ -57,7 +57,7 @@
                                    :output-to  "resources/public/js/compiled/todo_list.js"
                                    :optimizations :advanced}}]}
 
-  :figwheel { :css-dirs ["resources/public/css"]}
+  :figwheel { :css-dirs ["resources/public/css"] }
 
   :profiles {:dev {:dependencies [[binaryage/devtools "0.9.2"]
                                   [figwheel-sidecar "0.5.9"]
