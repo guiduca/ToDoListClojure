@@ -3,4 +3,4 @@ goog.provide('todo_list.app');
 goog.require('cljs.core');
 goog.require('sablono.core');
 
-//# sourceMappingURL=app.js.map?rel=1523250229862
+//# sourceMappingURL=app.js.map?rel=1523251659354

@@ -3,3 +3,748 @@
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/task.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.713 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.489 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.44 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.387 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.419 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.555 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.406 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.377 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/app.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.421 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.293 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:9  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [33m 9[0m  [1m(defn ui-task[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m10[0m  [36m  "This is a task")[0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.354 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/task.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.317 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:14  column:3  ----[0m
+
+  [1mWrong number of args (0) passed to: core/html[0m
+
+  [36m12[0m  [36m"This is a task"[0m
+  [36m13[0m  [36m[state task][0m
+  [33m14[0m  [1m(html))[0m
+  [0m  [0m  [33m^--- Wrong number of args (0) passed to: core/html[0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.377 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/task.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.152 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/app.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :task] at line 1 src/todo_list/app.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.app[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :task] at line 1 src/todo_list/app.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo-list.task as :task][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/app.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.144 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/app.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :uitask] at line 1 src/todo_list/app.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.app[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :uitask] at line 1 src/todo_list/app.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo-list.task as :uitask][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/app.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.149 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/app.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :uitask] at line 1 src/todo_list/app.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.app[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.task as :uitask] at line 1 src/todo_list/app.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo-list.task as :uitask][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/app.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.189 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.147 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.134 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.136 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.139 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.139 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.153 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.132 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.14 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.136 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.142 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: (defn action-change-input "Input changed" [state input] (assoc state :input input)) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.127 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28284#] (remove (fn [value] (= task value)) p1__28284#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28284#] (remove (fn [value] (= task value)) p1__28284#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.14 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28286#] (remove (fn [value] (= task value)) p1__28286#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28286#] (remove (fn [value] (= task value)) p1__28286#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.142 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28288#] (remove (fn [value] (= task value)) p1__28288#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28288#] (remove (fn [value] (= task value)) p1__28288#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.156 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28290#] (remove (fn [value] (= task value)) p1__28290#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28290#] (remove (fn [value] (= task value)) p1__28290#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.134 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28292#] (remove (fn [value] (= task value)) p1__28292#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28292#] (remove (fn [value] (= task value)) p1__28292#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28295#] (remove (fn [value] (= task value)) p1__28295#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__28295#] (remove (fn [value] (= task value)) p1__28295#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.299 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26360#] (remove (fn [value] (= task value)) p1__26360#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26360#] (remove (fn [value] (= task value)) p1__26360#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26362#] (remove (fn [value] (= task value)) p1__26362#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26362#] (remove (fn [value] (= task value)) p1__26362#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26364#] (remove (fn [value] (= task value)) p1__26364#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26364#] (remove (fn [value] (= task value)) p1__26364#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.171 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26366#] (remove (fn [value] (= task value)) p1__26366#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26366#] (remove (fn [value] (= task value)) p1__26366#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.158 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26368#] (remove (fn [value] (= task value)) p1__26368#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26368#] (remove (fn [value] (= task value)) p1__26368#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.169 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26370#] (remove (fn [value] (= task value)) p1__26370#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26370#] (remove (fn [value] (= task value)) p1__26370#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26372#] (remove (fn [value] (= task value)) p1__26372#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26372#] (remove (fn [value] (= task value)) p1__26372#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.15 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26374#] (remove (fn [value] (= task value)) p1__26374#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26374#] (remove (fn [value] (= task value)) p1__26374#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.137 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26376#] (remove (fn [value] (= task value)) p1__26376#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26376#] (remove (fn [value] (= task value)) p1__26376#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.163 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26378#] (remove (fn [value] (= task value)) p1__26378#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26378#] (remove (fn [value] (= task value)) p1__26378#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.153 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26380#] (remove (fn [value] (= task value)) p1__26380#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26380#] (remove (fn [value] (= task value)) p1__26380#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.221 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26382#] (remove (fn [value] (= task value)) p1__26382#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26382#] (remove (fn [value] (= task value)) p1__26382#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   #_[om.core :as om :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.314 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26384#] (remove (fn [value] (= task value)) p1__26384#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26384#] (remove (fn [value] (= task value)) p1__26384#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true][0m
+  [36m4[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]])[0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.164 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26386#] (remove (fn [value] (= task value)) p1__26386#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26386#] (remove (fn [value] (= task value)) p1__26386#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.137 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26388#] (remove (fn [value] (= task value)) p1__26388#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26388#] (remove (fn [value] (= task value)) p1__26388#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.152 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26390#] (remove (fn [value] (= task value)) p1__26390#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26390#] (remove (fn [value] (= task value)) p1__26390#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.184 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26392#] (remove (fn [value] (= task value)) p1__26392#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26392#] (remove (fn [value] (= task value)) p1__26392#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.138 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26394#] (remove (fn [value] (= task value)) p1__26394#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26394#] (remove (fn [value] (= task value)) p1__26394#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.155 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26396#] (remove (fn [value] (= task value)) p1__26396#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26396#] (remove (fn [value] (= task value)) p1__26396#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.153 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26399#] (remove (fn [value] (= task value)) p1__26399#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26399#] (remove (fn [value] (= task value)) p1__26399#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.136 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26404#] (remove (fn [value] (= task value)) p1__26404#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26404#] (remove (fn [value] (= task value)) p1__26404#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.167 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26406#] (remove (fn [value] (= task value)) p1__26406#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26406#] (remove (fn [value] (= task value)) p1__26406#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.149 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26408#] (remove (fn [value] (= task value)) p1__26408#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26408#] (remove (fn [value] (= task value)) p1__26408#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.209 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26411#] (remove (fn [value] (= task value)) p1__26411#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26411#] (remove (fn [value] (= task value)) p1__26411#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.139 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26413#] (remove (fn [value] (= task value)) p1__26413#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26413#] (remove (fn [value] (= task value)) p1__26413#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.138 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/task.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26417#] (remove (fn [value] (= task value)) p1__26417#)))) at line 1 src/todo_list/task.cljs[0m
+
+  [33m1[0m  [1m(ns todolist.task[0m
+  [0m [0m  [33m^--- Only :as alias, :refer (names) and :rename {from to} options supported in :require; offending spec: (defn action-remove-task "Task removed" [state task] (print state "task" task) (update-in state [:tasks] (fn* [p1__26417#] (remove (fn [value] (= task value)) p1__26417#)))) at line 1 src/todo_list/task.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [sablono.core :as sab :include-macros true :refer [html]][0m
+
+[36m----  Analysis Error : Please see src/todo_list/task.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:17  column:1  ----[0m
+
+  [1mUse of undeclared Var devcards.core/register-card[0m
+
+  [36m13[0m  [36m  [store action & args][0m
+  [36m14[0m  [36m  (apply swap! store action args)[0m
+  [36m15[0m  [36m  nil)[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(defcard QwertyExample[0m
+  [0m  [0m  [33m^--- Use of undeclared Var devcards.core/register-card[0m
+  [36m18[0m  [36m  "Even ay vulnerable beir ;ist du shein")[0m
+  [36m19[0m  [36m; (defcard MyTodoList[0m
+  [36m20[0m  [36m;   "Theses are your task for today's"[0m
+  [36m21[0m  [36m;   (fn [store][0m
+  [36m22[0m  [36m;     (:todolist store))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:17  column:1  ----[0m
+
+  [1mUse of undeclared Var devcards.core/card-base[0m
+
+  [36m13[0m  [36m  [store action & args][0m
+  [36m14[0m  [36m  (apply swap! store action args)[0m
+  [36m15[0m  [36m  nil)[0m
+  [36m16[0m  [36m[0m
+  [33m17[0m  [1m(defcard QwertyExample[0m
+  [0m  [0m  [33m^--- Use of undeclared Var devcards.core/card-base[0m
+  [36m18[0m  [36m  "Even ay vulnerable beir ;ist du shein")[0m
+  [36m19[0m  [36m; (defcard MyTodoList[0m
+  [36m20[0m  [36m;   "Theses are your task for today's"[0m
+  [36m21[0m  [36m;   (fn [store][0m
+  [36m22[0m  [36m;     (:todolist store))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 2.291 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.946 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.62 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.811 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:21  column:8  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/todolist[0m
+
+  [36m17[0m  [36m(defcard[0m
+  [36m18[0m  [36m  MyTodoList[0m
+  [36m19[0m  [36m  "Theses are your task for today's"[0m
+  [36m20[0m  [36m  (fn [store][0m
+  [33m21[0m  [1m    (todolist store))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var todo-list.core/todolist[0m
+  [36m22[0m  [36m  {:tasks ["maybe", "baby"]}[0m
+  [36m23[0m  [36m  {:frame false[0m
+  [36m24[0m  [36m   :inspect-data true[0m
+  [36m25[0m  [36m   :history true})[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.654 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.456 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.387 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.411 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.465 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.428 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.458 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.454 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.385 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.418 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.349 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
