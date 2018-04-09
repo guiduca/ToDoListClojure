@@ -1,10 +1,9 @@
 (ns todo-list.core
   (:require
-   #_[om.core :as om :include-macros true]
-   [sablono.core :as sab :include-macros true]
-   [sablono.core :as sab :include-macros true :refer [html]])
-  (:require-macros
-   [devcards.core :as dc :refer [defcard deftest]]))
+   [todo-list.ui_tasks :as ui_tasks]
+   [todo-list.complex-task :as complex-task]
+   [devcards.core :as dc :include-macros true :refer [defcard deftest]]
+   [sablono.core :as sab :include-macros true :refer [html]]))
 
 (enable-console-print!)
 
@@ -14,34 +13,19 @@
   (apply swap! store action args)
   nil)
 
-; (defcard MyTodoList "This is your current list"
-;   (fn [store]
-;     (print store))
-;   {:tasks ["Task1", "Task2"] :list_name "ListA"}
-;   {:inspect-data true})
 
-(defn compare-complex-tasks [model target]
-  (if (= model target) true false))
-
-(def x 13)
-
-(defn ui-complextask "This is a complex task" [store complex-task]
-  (html [:li {:key (:task-id complex-task)}
-         [:div {:class ui-ctask-body}
-          [:h1 {:class ui-ctask-title} (:title complex-task)]
-          [:span "Progress : " (:progress complex-task) "%"]
-          [:span "validated :" (:validated complex-task)]
-          [:div (:details complex-task)]]]))
-
-
-
-
+(defcard MySimpleTodoList
+  (fn [store]
+    (ui_tasks/main_tasks store))
+     ; [:ul (map (partial ui_tasks/main_tasks store ) (:tasks @store))]))
+  {:tasks ["yolo"], :input "input"}
+  {:inspect-data true})
 
 (defcard MyComplexToDoList "This is a list of more detailed tasks"
   (fn [store]
     (print store)
     (html
-     [:ul (map (partial ui-complextask store ) (:tasks @store))]))
+     [:ul (map (partial complex-task/ui-complextask store ) (:tasks @store))]))
 
   {:tasks [{:title "ComplexTask1",
             :progress 0,
