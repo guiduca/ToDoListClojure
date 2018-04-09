@@ -8,7 +8,7 @@ goog.addDependency("../react-dom.inc.js", ['cljsjs.react.dom'], ['cljsjs.react']
 goog.addDependency("../sablono/normalize.js", ['sablono.normalize'], ['sablono.util', 'cljs.core', 'clojure.set', 'clojure.string']);
 goog.addDependency("../sablono/interpreter.js", ['sablono.interpreter'], ['sablono.util', 'cljs.core', 'goog.object', 'cljsjs.react', 'sablono.normalize', 'clojure.string']);
 goog.addDependency("../sablono/core.js", ['sablono.core'], ['goog.dom', 'sablono.util', 'goog.string', 'cljs.core', 'cljsjs.react', 'cljsjs.react.dom', 'sablono.interpreter', 'sablono.normalize', 'clojure.string']);
-goog.addDependency("../todo_list/core.js", ['todo_list.core'], ['cljs.core', 'sablono.core']);
+goog.addDependency("../todo_list/ui_tasks.js", ['todo_list.ui_tasks'], ['cljs.core', 'sablono.core']);
 goog.addDependency("../cljs/pprint.js", ['cljs.pprint'], ['goog.string', 'cljs.core', 'goog.string.StringBuffer', 'clojure.string']);
 goog.addDependency("../devcards/util/utils.js", ['devcards.util.utils'], ['cljs.core', 'cljs.pprint']);
 goog.addDependency("../cljs/core/async/impl/protocols.js", ['cljs.core.async.impl.protocols'], ['cljs.core']);
@@ -24,6 +24,7 @@ goog.addDependency("../cljs/test.js", ['cljs.test'], ['cljs.core', 'cljs.pprint'
 goog.addDependency("../showdown.inc.js", ['cljsjs.showdown'], []);
 goog.addDependency("../devcards/util/markdown.js", ['devcards.util.markdown'], ['cljs.core', 'cljsjs.showdown', 'clojure.string']);
 goog.addDependency("../devcards/core.js", ['devcards.core'], ['devcards.util.utils', 'devcards.system', 'cljs.core', 'cljs.test', 'cljs.core.async', 'sablono.core', 'devcards.util.edn_renderer', 'devcards.util.markdown', 'clojure.string']);
+goog.addDependency("../todo_list/core.js", ['todo_list.core'], ['todo_list.ui_tasks', 'devcards.core', 'cljs.core', 'sablono.core']);
 goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.core', 'goog.string.StringBuffer']);
 goog.addDependency("../figwheel/client/utils.js", ['figwheel.client.utils'], ['goog.userAgent.product', 'goog.string', 'cljs.core', 'goog.string.StringBuffer', 'cljs.pprint', 'goog.async.Deferred', 'clojure.string', 'cljs.reader']);
 goog.addDependency("../figwheel/client/file_reloading.js", ['figwheel.client.file_reloading'], ['goog.string', 'goog.net.jsloader', 'goog.Uri', 'cljs.core', 'goog.object', 'cljs.core.async', 'clojure.set', 'figwheel.client.utils', 'goog.async.Deferred', 'clojure.string']);

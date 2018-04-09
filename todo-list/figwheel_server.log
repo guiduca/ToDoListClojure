@@ -751,3 +751,443 @@ notifying browser that file changed:  resources/public/js/compiled/devcards_out/
 [0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.423 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.224 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mNo ns form found in src/todo_list/tasks.cljs[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: No ns form found in src/todo_list/tasks.cljs
+ at cljs.analyzer$parse_ns$fn__2420.invoke (analyzer.cljc:3059)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:3009)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2991)
+    cljs.analyzer$parse_ns.invokeStatic (analyzer.cljc:3001)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2991)
+    cljs.compiler$find_source.invokeStatic (compiler.cljc:1432)
+    cljs.compiler$find_source.invoke (compiler.cljc:1431)
+    clojure.core$map$fn__4785.invoke (core.clj:2646)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$reduce1.invokeStatic (core.clj:925)
+    clojure.core$set.invokeStatic (core.clj:3983)
+    clojure.core$set.invoke (core.clj:3975)
+    cljs.closure$add_dependency_sources.invokeStatic (closure.clj:798)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:792)
+    cljs.closure$build.invokeStatic (closure.clj:1986)
+    cljs.closure$build.invoke (closure.clj:1927)
+    cljs.build.api$build.invokeStatic (api.clj:199)
+    cljs.build.api$build.invoke (api.clj:187)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__23966.invoke (injection.clj:197)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__24330.invoke (cljs_autobuild.clj:68)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__24322.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__24191.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__24248.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__24281.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__24334.invoke (cljs_autobuild.clj:79)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__24375.invoke (cljs_autobuild.clj:231)
+    figwheel_sidecar.utils$sync_exec$fn__2477$fn__2478.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__2477.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1135)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:635)
+    java.lang.Thread.run (Thread.java:844)
+
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.558 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.125 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.tasks as :todolist] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.tasks as :todolist] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.tasks as :todolist][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.133 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.tasks as :todolist] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.tasks as :todolist] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.tasks as :todolist][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.149 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks][0m
+  [36m4[0m  [36m   #_[om.core :as om :include-macros true][0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.123 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.134 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.168 seconds.[0m
+[36m----  Could not Read  src/todo_list/ui_tasks.cljs   line:2  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 2 and column 3[0m
+
+  [36m1[0m  [36m(ns todo-list.ui_tasks[0m
+  [33m2[0m  [1m  (:require[0m
+  [0m [0m  [33m  ^--- EOF while reading, starting at line 2 and column 3[0m
+  [36m3[0m  [36m    [sablono.core :include-macros true :refer [html]][0m
+
+[36m----  Reader Error : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.132 seconds.[0m
+[36m----  Could not Read  src/todo_list/ui_tasks.cljs   line:2  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 2 and column 3[0m
+
+  [36m1[0m  [36m(ns todo-list.ui_tasks[0m
+  [33m2[0m  [1m  (:require[0m
+  [0m [0m  [33m  ^--- EOF while reading, starting at line 2 and column 3[0m
+  [36m3[0m  [36m    [sablono.core :include-macros true :refer [html]][0m
+
+[36m----  Reader Error : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.151 seconds.[0m
+[36m----  Could not Read  src/todo_list/ui_tasks.cljs   line:2  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 2 and column 3[0m
+
+  [36m1[0m  [36m(ns todo-list.ui_tasks[0m
+  [33m2[0m  [1m  (:require[0m
+  [0m [0m  [33m  ^--- EOF while reading, starting at line 2 and column 3[0m
+  [36m3[0m  [36m    [sablono.core :include-macros true :refer [html]][0m
+
+[36m----  Reader Error : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.149 seconds.[0m
+[36m----  Could not Read  src/todo_list/ui_tasks.cljs   line:2  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 2 and column 3[0m
+
+  [36m1[0m  [36m(ns todo-list.ui_tasks[0m
+  [33m2[0m  [1m  (:require[0m
+  [0m [0m  [33m  ^--- EOF while reading, starting at line 2 and column 3[0m
+  [36m3[0m  [36m    [sablono.core :include-macros true :refer [html]][0m
+
+[36m----  Reader Error : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.181 seconds.[0m
+[36m----  Could not Read  src/todo_list/ui_tasks.cljs   line:2  column:3  ----[0m
+
+  [1mEOF while reading, starting at line 2 and column 3[0m
+
+  [36m1[0m  [36m(ns todo-list.ui_tasks[0m
+  [33m2[0m  [1m  (:require[0m
+  [0m [0m  [33m  ^--- EOF while reading, starting at line 2 and column 3[0m
+  [36m3[0m  [36m    [sablono.core :include-macros true :refer [html]][0m
+
+[36m----  Reader Error : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.143 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.13 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.135 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo_list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo_list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.138 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo-list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.13 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+
+  [33m1[0m  [1m(ns todo-list.core[0m
+  [0m [0m  [33m^--- Only :as, :refer and :rename options supported in :require / :require-macros; offending spec: [todo-list.ui_tasks as :ui_tasks] at line 1 src/todo_list/core.cljs[0m
+  [36m2[0m  [36m  (:require[0m
+  [36m3[0m  [36m   [todo-list.ui_tasks as :ui_tasks])[0m
+  [36m4[0m  [36m  (:require-macros[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:39  column:27  ----[0m
+
+  [1mNo such namespace: sab, could not locate sab.cljs, sab.cljc, or Closure namespace ""[0m
+
+  [36m35[0m  [36m(defn main [][0m
+  [36m36[0m  [36m  ;; conditionally start the app based on whether the #main-app-area[0m
+  [36m37[0m  [36m  ;; node is on the page[0m
+  [36m38[0m  [36m  (if-let [node (.getElementById js/document "main-app-area")][0m
+  [33m39[0m  [1m    (.render js/ReactDOM (sab/html [:div "This is not working"]) node)))[0m
+  [0m  [0m  [33m                          ^--- No such namespace: sab, could not locate sab.cljs, sab.cljc, or Closure namespace ""[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m(main)[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;; remember to run lein figwheel and then browse to[0m
+  [36m44[0m  [36m;; http://localhost:3449/cards.html[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:39  column:27  ----[0m
+
+  [1mUse of undeclared Var sab/html[0m
+
+  [36m35[0m  [36m(defn main [][0m
+  [36m36[0m  [36m  ;; conditionally start the app based on whether the #main-app-area[0m
+  [36m37[0m  [36m  ;; node is on the page[0m
+  [36m38[0m  [36m  (if-let [node (.getElementById js/document "main-app-area")][0m
+  [33m39[0m  [1m    (.render js/ReactDOM (sab/html [:div "This is not working"]) node)))[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var sab/html[0m
+  [36m40[0m  [36m[0m
+  [36m41[0m  [36m(main)[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m;; remember to run lein figwheel and then browse to[0m
+  [36m44[0m  [36m;; http://localhost:3449/cards.html[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.683 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.493 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.482 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:11  column:32  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/dispatch![0m
+
+  [36m 7[0m  [36m"Application UI."[0m
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input {[0m
+  [33m11[0m  [1m                :on-change #(dispatch! store action-change-input[0m
+  [0m  [0m  [33m                             ^--- Use of undeclared Var todo-list.ui_tasks/dispatch![0m
+  [36m12[0m  [36m                                        (-> % .-target .-value))}][0m
+  [36m13[0m  [36m       [:button[0m
+  [36m14[0m  [36m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [36m15[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:11  column:48  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/action-change-input[0m
+
+  [36m 7[0m  [36m"Application UI."[0m
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input {[0m
+  [33m11[0m  [1m                :on-change #(dispatch! store action-change-input[0m
+  [0m  [0m  [33m                                             ^--- Use of undeclared Var todo-list.ui_tasks/action-change-input[0m
+  [36m12[0m  [36m                                        (-> % .-target .-value))}][0m
+  [36m13[0m  [36m       [:button[0m
+  [36m14[0m  [36m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [36m15[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:14  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/dispatch![0m
+
+  [36m10[0m  [36m[:input {[0m
+  [36m11[0m  [36m         :on-change #(dispatch! store action-change-input[0m
+  [36m12[0m  [36m                                 (-> % .-target .-value))}][0m
+  [36m13[0m  [36m[:button[0m
+  [33m14[0m  [1m {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m              ^--- Use of undeclared Var todo-list.ui_tasks/dispatch![0m
+  [36m15[0m  [36m "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:14  column:40  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/action-add-task[0m
+
+  [36m10[0m  [36m[:input {[0m
+  [36m11[0m  [36m         :on-change #(dispatch! store action-change-input[0m
+  [36m12[0m  [36m                                 (-> % .-target .-value))}][0m
+  [36m13[0m  [36m[:button[0m
+  [33m14[0m  [1m {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m                              ^--- Use of undeclared Var todo-list.ui_tasks/action-add-task[0m
+  [36m15[0m  [36m "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.761 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:12  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/dispatch![0m
+
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input[0m
+  [36m11[0m  [36m        [:button][0m
+  [33m12[0m  [1m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var todo-list.ui_tasks/dispatch![0m
+  [36m13[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:12  column:40  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/action-add-task[0m
+
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input[0m
+  [36m11[0m  [36m        [:button][0m
+  [33m12[0m  [1m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m                                     ^--- Use of undeclared Var todo-list.ui_tasks/action-add-task[0m
+  [36m13[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.51 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:12  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/dispatch![0m
+
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input][0m
+  [36m11[0m  [36m       [:button[0m
+  [33m12[0m  [1m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var todo-list.ui_tasks/dispatch![0m
+  [36m13[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/ui_tasks.cljs   line:12  column:40  ----[0m
+
+  [1mUse of undeclared Var todo-list.ui_tasks/action-add-task[0m
+
+  [36m 8[0m  [36m[store][0m
+  [36m 9[0m  [36m(html [:div[0m
+  [36m10[0m  [36m       [:input][0m
+  [36m11[0m  [36m       [:button[0m
+  [33m12[0m  [1m        {:on-click #(dispatch! store action-add-task (:input @store))}[0m
+  [0m  [0m  [33m                                     ^--- Use of undeclared Var todo-list.ui_tasks/action-add-task[0m
+  [36m13[0m  [36m        "Submit"]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/ui_tasks.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.613 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.392 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.433 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.587 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/ui_tasks.js
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css
+Notifying browser that CSS file changed: resources/public/css/todo_list_style.css

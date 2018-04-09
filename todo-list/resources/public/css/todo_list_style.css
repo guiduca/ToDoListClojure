@@ -1,1 +1,22 @@
 /* todo-list CSS */
+
+.tasks_input {
+ margin-bottom: 20px;
+ width: 100%;
+ text-align: center;
+}
+.tasks_input > input {
+ width:40%;
+ text-align: center;
+ font-size: 18px;
+}
+.tasks_input > button {
+ height: 27px;
+ vertical-align: top;
+ cursor:pointer;
+ background: #555;
+ border:1px solid #555;
+ color:#DDD;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
