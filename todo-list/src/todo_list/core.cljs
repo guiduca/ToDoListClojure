@@ -20,6 +20,11 @@
   {:tasks ["Task1", "Task2"] :list_name "ListA"}
   {:inspect-data true})
 
+(defcard MyComplexToDoList "This is a list of more detailed tasks"
+  (fn [store]
+    (print store)
+    {:tasks [
+             {:title "ComplexTask1"}]}))
 
 (defn main []
   ;; conditionally start the app based on whether the #main-app-area

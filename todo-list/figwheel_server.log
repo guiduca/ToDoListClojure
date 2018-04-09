@@ -748,3 +748,6 @@ notifying browser that file changed:  resources/public/js/compiled/devcards_out/
 [0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.349 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.423 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
