@@ -9,6 +9,12 @@
  text-align: center;
  font-size: 18px;
 }
+.tasks_input > input:focus {
+ outline-right: none;
+}
+.tasks_input > button:focus {
+ outline: none;
+}
 .tasks_input > button {
  height: 27px;
  vertical-align: top;
@@ -19,4 +25,27 @@
  text-transform: uppercase;
  letter-spacing: 1px;
  z-index: 1;
+}
+.tasks_display li {
+  display: block;
+  text-align: center;
+  background: #efeded;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.remove_task {
+ color: red;
+ cursor: pointer;
+ float: right;
+ background: #fbfbfb;
+ border-radius: 112px;
+ font-size: 9px;
+ padding: 6px;
+ padding-left: 9px;
+}
+.tasks_display {
+ margin-bottom: 30px;
 }

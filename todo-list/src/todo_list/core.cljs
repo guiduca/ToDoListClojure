@@ -1,22 +1,16 @@
 (ns todo-list.core
   (:require
    [todo-list.ui_tasks :as ui_tasks]
+   [todo-list.utils :as utils]
    [todo-list.complex-task :as complex-task]
    [devcards.core :as dc :include-macros true :refer [defcard deftest]]
    [sablono.core :as sab :include-macros true :refer [html]]))
 
 (enable-console-print!)
 
-(defn dispatch!
-  "Dispatch action to store"
-  [store action & args]
-  (apply swap! store action args)
-  nil)
-
-
 (defcard MySimpleTodoList
   (fn [store]
-    (ui_tasks/main_tasks store))
+    (ui_tasks/main_input store))
      ; [:ul (map (partial ui_tasks/main_tasks store ) (:tasks @store))]))
   {:tasks ["yolo"], :input "input"}
   {:inspect-data true})
