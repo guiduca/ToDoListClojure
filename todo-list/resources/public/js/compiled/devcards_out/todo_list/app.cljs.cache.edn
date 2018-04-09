@@ -1,0 +1,1 @@
+{:rename-macros {}, :renames {}, :use-macros {html sablono.core, deftest devcards.core, defcard devcards.core}, :excludes #{}, :name todo-list.app, :imports nil, :requires {sab sablono.core, sablono.core sablono.core}, :uses {}, :require-macros {dc devcards.core, devcards.core devcards.core, sab sablono.core, sablono.core sablono.core}, :doc nil}
