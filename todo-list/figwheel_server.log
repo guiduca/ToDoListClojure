@@ -751,3 +751,511 @@ notifying browser that file changed:  resources/public/js/compiled/devcards_out/
 [0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
 [32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.423 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.46 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.455 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.519 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.411 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.466 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.21 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:22  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m(defn ui-complextask)[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defcard MyComplexToDoList "This is a list of more detailed tasks"[0m
+  [36m25[0m  [36m  (fn [store][0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.208 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:22  column:1  ----[0m
+
+  [1mParameter declaration missing[0m
+
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m(defn ui-complextask "This is a complex task")[0m
+  [0m  [0m  [33m^--- Parameter declaration missing[0m
+  [36m23[0m  [36m[0m
+  [36m24[0m  [36m(defcard MyComplexToDoList "This is a list of more detailed tasks"[0m
+  [36m25[0m  [36m  (fn [store][0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.403 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.459 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.229 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id @complex-task)}])[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.219 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id @complex-task)}])[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.207 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id complex-task)}])[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.215 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id complex-task)}[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+  [36m24[0m  [36m       [:div Hello]])[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.223 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id complex-task)}[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+  [36m24[0m  [36m       [:div "Hello"]])[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.214 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:23  column:11  ----[0m
+
+  [1mInvalid token: li:[0m
+
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [li: {:key (:task-id complex-task)}[0m
+  [0m  [0m  [33m          ^--- Invalid token: li:[0m
+  [36m24[0m  [36m       [:div "Hello"]])[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:23  column:2  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/html[0m
+
+  [36m19[0m  [36m  {:tasks ["Task1", "Task2"] :list_name "ListA"}[0m
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [:li {:key (:task-id complex-task)}[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var todo-list.core/html[0m
+  [36m24[0m  [36m       [:div "Hello"]])[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:23  column:28  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/complex-task[0m
+
+  [36m19[0m  [36m  {:tasks ["Task1", "Task2"] :list_name "ListA"}[0m
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task])[0m
+  [33m23[0m  [1m(html [:li {:key (:task-id complex-task)}[0m
+  [0m  [0m  [33m                           ^--- Use of undeclared Var todo-list.core/complex-task[0m
+  [36m24[0m  [36m       [:div "Hello"]])[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.405 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:23  column:4  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/html[0m
+
+  [36m19[0m  [36m  {:tasks ["Task1", "Task2"] :list_name "ListA"}[0m
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [33m23[0m  [1m  (html [:li {:key (:task-id complex-task)}][0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var todo-list.core/html[0m
+  [36m24[0m  [36m       [:div "Hello"]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.48 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:23  column:4  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/html[0m
+
+  [36m19[0m  [36m  {:tasks ["Task1", "Task2"] :list_name "ListA"}[0m
+  [36m20[0m  [36m  {:inspect-data true})[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [33m23[0m  [1m  (html [:li {:key (:task-id complex-task)}][0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var todo-list.core/html[0m
+  [36m24[0m  [36m        [:div "Hello"]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.384 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.221 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:25  column:3  ----[0m
+
+  [1mWrong number of args (2) passed to: core/html[0m
+
+  [36m24[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [33m25[0m  [1m  (html [:li {:key (:task-id complex-task)}][0m
+  [0m  [0m  [33m  ^--- Wrong number of args (2) passed to: core/html[0m
+  [36m26[0m  [36m        [:div "Hello"]))[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.339 seconds.[0m
+[36m----  Could not Analyze  src/todo_list/core.cljs   line:24  column:3  ----[0m
+
+  [1mWrong number of args (2) passed to: core/html[0m
+
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [33m24[0m  [1m  (html [:li {:key (:task-id complex-task)}][0m
+  [0m  [0m  [33m  ^--- Wrong number of args (2) passed to: core/html[0m
+  [36m25[0m  [36m        [:div "Hello"]))[0m
+
+[36m----  Analysis Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.401 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.402 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.351 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.513 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.339 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.442 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.462 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.356 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.411 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.528 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.486 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:26  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m25[0m  [36m         [:div[0m
+  [33m26[0m  [1m          [:h1 {:class ui-ctask-title}(:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.566 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:25  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m21[0m  [36m;   {:inspect-data true})[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m25[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m26[0m  [36m          [:h1 {:class ui-ctask-title}(:title complex-task)][0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:26  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m25[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m26[0m  [1m          [:h1 {:class ui-ctask-title}(:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.34 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.259 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:27  column:32  ----[0m
+
+  [1mInvalid token: :[0m
+
+  [36m25[0m  [36m[:div {:class ui-ctask-body}[0m
+  [36m26[0m  [36m [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [33m27[0m  [1m [:span ("Progress" : " (:progress complex-task) "%")][0m
+  [0m  [0m  [33m                      ^--- Invalid token: :[0m
+  [36m28[0m  [36m [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m [:div (:details complex-task)]]]))[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:25  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m21[0m  [36m;   {:inspect-data true})[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m25[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m26[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:26  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m25[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m26[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.42 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[31mFailed to compile "resources/public/js/compiled/todo_list_devcards.js" in 0.211 seconds.[0m
+[36m----  Could not Read  src/todo_list/core.cljs   line:27  column:62  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m25[0m  [36m[:div {:class ui-ctask-body}[0m
+  [36m26[0m  [36m [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [33m27[0m  [1m [:span {"Progress : " (:progress complex-task) "%"}][0m
+  [0m  [0m  [33m                                                    ^--- Map literal must contain an even number of forms[0m
+  [36m28[0m  [36m [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m [:div (:details complex-task)]]]))[0m
+
+[36m----  Reader Error : Please see src/todo_list/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:25  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m21[0m  [36m;   {:inspect-data true})[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m25[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m26[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:26  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m23[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m24[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m25[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m26[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m27[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m28[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m29[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.683 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:29  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m29[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m30[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:30  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m29[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m30[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.361 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:29  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m29[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m30[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:30  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m29[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m30[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.399 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:29  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m29[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m30[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:30  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m27[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m28[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m29[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m30[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m31[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m32[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m33[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
+[0mCompiling "resources/public/js/compiled/todo_list_devcards.js" from ["src"]...[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:30  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-body[0m
+
+  [36m26[0m  [36m(def x 13)[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m29[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [33m30[0m  [1m         [:div {:class ui-ctask-body}[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-body[0m
+  [36m31[0m  [36m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [36m32[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m33[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m34[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/todo_list/core.cljs   line:31  column:24  ----[0m
+
+  [1mUse of undeclared Var todo-list.core/ui-ctask-title[0m
+
+  [36m28[0m  [36m(defn ui-complextask "This is a complex task" [store complex-task][0m
+  [36m29[0m  [36m  (html [:li {:key (:task-id complex-task)}[0m
+  [36m30[0m  [36m         [:div {:class ui-ctask-body}[0m
+  [33m31[0m  [1m          [:h1 {:class ui-ctask-title} (:title complex-task)][0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var todo-list.core/ui-ctask-title[0m
+  [36m32[0m  [36m          [:span "Progress : " (:progress complex-task) "%"][0m
+  [36m33[0m  [36m          [:span "validated :" (:validated complex-task)][0m
+  [36m34[0m  [36m          [:div (:details complex-task)]]]))[0m
+
+[36m----  Compiler Warning : Please see src/todo_list/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/todo_list_devcards.js" in 0.392 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/devcards_out/todo_list/core.js
