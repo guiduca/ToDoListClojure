@@ -7,9 +7,12 @@
 
 (enable-console-print!)
 
-(defcard first-card
-  (sab/html [:div
-             [:h1 "This is your first devcard!"]]))
+(defn dispatch!
+  "Dispatch action to store"
+  [store action & args]
+  (apply swap! store action args)
+  nil)
+
 
 (defn main []
   ;; conditionally start the app based on whether the #main-app-area
@@ -21,4 +24,3 @@
 
 ;; remember to run lein figwheel and then browse to
 ;; http://localhost:3449/cards.html
-
