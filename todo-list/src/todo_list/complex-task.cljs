@@ -15,14 +15,25 @@
   "Removing a task by comparison of the whole lists that defines them"
   (update-in state [:tasks] #(remove (fn [value] (= complex-task value)) %)))
 
+(defn action-trigger-edit-ctask [state]
+  (assoc state :editing true))
+
 (defn ui-complextask "This is a complex task" [store complex-task]
   (html [:li {:key (:task-id complex-task)}
-         [:div {:class-name "ctask_tile"}
-          [:h1 {:class "ctask_title"} (:title complex-task)
-           [:button {:on-click #(utils/dispatch! store action-remove-ctask complex-task)} "X"]]
-          [:div {:class "task_progress_bar_container"}
-           [:div {:class "task_progress_bar_content" :style {:height "20px"
-                                                             :width (+(str (:progress complex-task) "%"))}}]
-           "Progress : " (:progress complex-task) "%"]
-          [:span "validated :" (:validated complex-task)]
-          [:div {:class "ctask_details"}(:details complex-task)]]]))
+         [:div {:class-name "ctask_main"}
+          [:div {:class-name "ctask_tile"}
+           [:div {:class "ctask_title"}
+            [:span (:title complex-task)]
+            [:div {:class "task_progress_bar_container"}
+             [:div {:class (let [n (:progress complex-task)]
+                             (cond  (<= n 33) "task_progress_bar_content_short"
+                                    (<= n 66) "task_progress_bar_content_medium"
+                                    (> n 66) "task_progress_bar_content_end"))
+                    :style {:width (+(str (:progress complex-task) "%"))}}]
+             [:p "Progress : " (:progress complex-task) "%"]]
+            [:div {:class "ctask_title_buttondiv"}
+              [:button {:on-click #(utils/dispatch! store action-trigger-edit-ctask)} "Edit"]
+              [:button {:on-click #(utils/dispatch! store action-remove-ctask complex-task)} "X"]]]]
+          [:div {:class "ctask_details"}
+           [:span "validated :" (:validated complex-task)]
+           [:div (:details complex-task)]]]]))
