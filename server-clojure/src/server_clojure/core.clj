@@ -26,6 +26,16 @@
 
       response))
 
+(defn add-task
+  [req]
+  (println req)
+  ;(swap! tasks conj (json/read-str param))
+  (let [response {:status 200
+                  :headers {"Content-Type" "text/html"}
+                  :body "request success"}]
+
+      response))
+
 (defn get-all-tasks
   []
   (let [response {:status 200
@@ -37,7 +47,8 @@
 (defroutes app
       (GET "/" [] "<h1>Welcome</h1>")
       (GET "/hello" [] (hello))
-      (GET "/get-all-tasks" [] (get-all-task))
+      (GET "/get-all-tasks" [] (get-all-tasks))
+      (POST "/add-task" req (add-task req))
       (route/not-found "<h1>Page not found</h1>"))
 
 (defn -main [& args]
