@@ -1,33 +1,74 @@
-
-.ctask_tile {
-  background-color: white;
-  display: grid;
-  border: 1px solid gray;
-  border-radius: 5px;
+.ctask_main {
+  display: inline-grid;
+  width: 100%;
+  position: relative;
   margin-bottom: 20px;
   transition: all 200ms ease-in;
   transform: scale(1);
+}
+
+.ctask_tile {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .ctask_tile > h1 {
   margin-top: 0;
 }
 
-.ctask_title > button {
-  height: 27px;
-  vertical-align: top;
-  cursor:pointer;
-  float: right;
-  background: #888;
-  border:1px solid #555;
+.ctask_title {
+  width: 100%;
+  align-content: space-between;
+  display: flex;
+  justify-content: space-around;
   color:#DDD;
   text-transform: uppercase;
   letter-spacing: 1px;
-  z-index: 1;
+  font-weight: lighter;
+  color: azure;
+  background-color: #555;
+  border:1px solid #555;
 }
 
-.ctask_tile:hover {
-  color: red;
+
+.ctask_title > span {
+  height: 25px;
+  overflow: hidden;
+  flex: 10;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor:pointer;
+  position: relative;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.ctask_title_buttondiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.ctask_title_buttondiv > button {
+  height: 25px;
+  align-self: center;
+  cursor:pointer;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.ctask_title_buttondiv > button:hover {
+  background: #d44;
+}
+
+.ctask_main:hover {
   transition: all 200ms ease-in;
   transform: scale(1.1);
   position: relative;
@@ -37,20 +78,52 @@
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
 }
 
-.ctask_title {
-  display: flex;
-  background-color: #555;
+
+.ctask_details {
+  padding: 5px;
+  display: flow-root;
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid gray;
 }
 
 .task_progress_bar_container {
   border: 1px solid gray;
-
+  /* width: 230px; */
+  flex: 4;
+  background-color: #666;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align:center;
+  display: flex;
+  position: relative;
 }
 
-.task_progress_bar_content {
-  background-color: blue;
+.task_progress_bar_content_short {
+  background-color: #f43;
+  height: 100%;
+  position: absolute;
 }
 
+.task_progress_bar_content_medium {
+  background-color: #d37;
+  height: 100%;
+  position: absolute;
+}
+
+.task_progress_bar_content_end {
+  background-color: #3d3;
+  height: 100%;
+  position: absolute;
+}
+
+.task_progress_bar_container > p {
+  right: 0;
+  left: 0;
+  text-align: center;
+  position:absolute;
+  z-index: 2;
+
+}
 .tasks_input {
  margin-bottom: 20px;
  width: 100%;
