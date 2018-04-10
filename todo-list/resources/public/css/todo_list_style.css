@@ -1,4 +1,41 @@
 
+.ctask_tile {
+  background-color: white;
+  display: grid;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.ctask_tile > h1 {
+  margin-top: 0;
+}
+
+.ctask_tile:hover {
+  color: red;
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+}
+
+.ctask_title {
+  display: flex;
+  background-color: #555;
+}
+
+.task_progress_bar_container {
+  border: 1px solid gray;
+
+}
+.task_progress_bar_content {
+  background-color: blue;
+}
+
 .tasks_input {
  margin-bottom: 20px;
  width: 100%;
