@@ -1,7 +1,9 @@
 (ns server-clojure.core
   (:require [org.httpkit.server :refer [run-server]]
             [clojure.data.json :as json]
+            [ring.middleware.json :refer [wrap-json-body]]
             [compojure.core :refer :all]
+            [compojure.handler :as handler]
             [compojure.route :as route]))
 
 (def tasks
@@ -28,8 +30,8 @@
 
 (defn add-task
   [req]
-  (println req)
-  ;(swap! tasks conj (json/read-str param))
+  (println  (get req :body))
+  (swap! tasks conj (get req :body))
   (let [response {:status 200
                   :headers {"Content-Type" "text/html"}
                   :body "request success"}]
@@ -48,9 +50,12 @@
       (GET "/" [] "<h1>Welcome</h1>")
       (GET "/hello" [] (hello))
       (GET "/get-all-tasks" [] (get-all-tasks))
-      (POST "/add-task" req (add-task req))
+      (POST "/add-task" [] add-task)
       (route/not-found "<h1>Page not found</h1>"))
 
+(def main (wrap-json-body app))
+
 (defn -main [& args]
-  (run-server app {:port 8080})
-  (println "server started on port 8080"))
+  (wrap-json-body (handler/site app))
+  ;(run-server app {:port 8080})
+  #_(println "server started on port 8080"))

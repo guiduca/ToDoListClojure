@@ -6,6 +6,8 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [http-kit "2.2.0"]
                  [org.clojure/data.json "0.2.6"]
-                 [compojure "1.6.0"]]
-
+                 [compojure "1.6.0"]
+                 [ring/ring-json "0.4.0"]]
+  :plugins [[lein-ring "0.12.4"]]
+  :ring {:handler server-clojure.core/main}
   :main server-clojure.core)
