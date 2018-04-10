@@ -15,7 +15,7 @@
   {:tasks ["yolo"], :input "input"}
   {:inspect-data true})
 
-(defcard MyComplexToDoList "This is a list of more detailed tasks"
+(defcard MyComplexToDoList "This is a listmore detailed tasks"
   (fn [store]
     (print store)
     (html
