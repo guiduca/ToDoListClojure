@@ -2,7 +2,7 @@
 
 This is a training project
 
-Server http
+Server http -->
 
 cd server-clojure
 
