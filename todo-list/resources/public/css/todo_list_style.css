@@ -8,8 +8,22 @@
   transition: all 200ms ease-in;
   transform: scale(1);
 }
+
 .ctask_tile > h1 {
   margin-top: 0;
+}
+
+.ctask_title > button {
+  height: 27px;
+  vertical-align: top;
+  cursor:pointer;
+  float: right;
+  background: #888;
+  border:1px solid #555;
+  color:#DDD;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
 }
 
 .ctask_tile:hover {
@@ -32,6 +46,7 @@
   border: 1px solid gray;
 
 }
+
 .task_progress_bar_content {
   background-color: blue;
 }
@@ -52,16 +67,17 @@
 .tasks_input > button:focus {
  outline: none;
 }
+
 .tasks_input > button {
- height: 27px;
- vertical-align: top;
- cursor:pointer;
- background: #555;
- border:1px solid #555;
- color:#DDD;
- text-transform: uppercase;
- letter-spacing: 1px;
- z-index: 1;
+  height: 27px;
+  vertical-align: top;
+  cursor:pointer;
+  background: #555;
+  border:1px solid #555;
+  color:#DDD;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
 }
 .tasks_display li {
   display: block;
