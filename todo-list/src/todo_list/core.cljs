@@ -19,7 +19,11 @@
   (fn [store]
     (print store)
     (html
-     [:ul (map (partial complex-task/ui-complextask store ) (:tasks @store))]))
+     [:div
+       ; (when (= (get @store :editing) true)
+       ;  [:div {:style {:size "1000px 1000px" :background-color "red" :position "absolute" :z-index "6"}} "Hello"])
+       [:ul (map (partial complex-task/ui-complextask store ) (:tasks @store))]]))
+
 
   {:tasks [{:title "ComplexTask1",
             :progress 0,
