@@ -37,18 +37,21 @@
             :validated false,
             :details "This is a more advanced complex task",
             :task-id 1},
-            {:title "Dominate the world",
-             :progress 50,
-             :deadline "12/03/2018",
-             :validated false,
-             :details "For real, we need to get on the betonneuse",
-             :task-id 2},
-            {:title "create a very long title for a task to see how the goat that made the style handle very long sentences and to tell him to commit a suicide",
-             :progress 90,
-             :deadline "12/03/2018",
-             :validated false,
-             :details "This task was especially made to ruin the day of someone ! feel free to add any tricks that will lead this poor intern to hang himself, he sure deserves it",
-             :task-id 3}]})
+           {:title "Dominate the world",
+            :progress 50,
+            :deadline "12/03/2018",
+            :validated false,
+            :details "For real, we need to get on the betonneuse",
+            :task-id 2,}
+           {:title "create a very long title for a task to see how the goat that made the style handle very long sentences and to tell him to commit a suicide",
+            :progress 90,
+            :deadline "12/03/2018",
+            :validated false,
+            :details "This task was especially made to ruin the day of someone ! feel free to add any tricks that will lead this poor intern to hang himself, he sure deserves it",
+            :task-id 3}]}
+  {:inspect-data true})
+
+
 
 (defn main []
   ;; conditionally start the app based on whether the #main-app-area
