@@ -31,14 +31,14 @@
 
 (defn add-task
   [req]
-  (println (json/write-str (get req :body)))
-  (println (parse-string (json/write-str(get req :body))))
-  (println (get req :body))
-  (println (@tasks 0))
-  (swap! tasks conj (get req :body))
-  (let [response {:status 200
-                  :headers {"Content-Type" "text/html"}
-                  :body "request success"}]
+  (let [body (get req :body)
+        newTask (into {} (for [[k v] body]
+                          [(keyword k) v]))
+        response {:status 200
+                      :headers {"Content-Type" "text/html"}
+                      :body "request success"}]
+       (swap! tasks conj newTask)
+      (println @tasks)
       response))
 
 (defn get-all-tasks
