@@ -38,7 +38,6 @@
                       :headers {"Content-Type" "text/html"}
                       :body "request success"}]
        (swap! tasks conj newTask)
-      (println @tasks)
       response))
 
 (defn get-all-tasks
@@ -60,23 +59,22 @@
   (let [response {:status 200
                   :headers {"Content-Type" "application/json"}
                   :body (json/write-str taskReturned)}]
-   (println taskReturned)
    response))
 
 (defn edit-task
   [req]
-  (doall (map-indexed (fn [idx itm]
-                       (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])))
-                        (def taskReturned itm)))
-                      @tasks))
-  (println taskReturned)
-  ;(println (json/write-str (get req :body)))
-                    ;(swap!
-                     ;taskReturned
-                     ;assoc (get req :body)))
-  (let [response {:status 200
-                    :headers {"Content-Type" "text/html"}
-                    :body "request success"}]
+
+  (let [body (get req :body)
+        taskToModify (into {} (for [[k v] body]
+                               [(keyword k) v]))
+        response {:status 200
+                        :headers {"Content-Type" "text/html"}
+                        :body "request success"}]
+       (swap! tasks (map-indexed (fn [idx itm]
+                                   (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])))
+                                    taskToModify) itm)
+                                 @tasks))
+      ;(update-in tasks taskReturned taskToModify)
       response))
 
 
