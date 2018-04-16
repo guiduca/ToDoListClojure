@@ -9,17 +9,17 @@
 
 (def tasks
   (atom [{ :title "ComplexTask1"
-            :progress 0
-            :deadline nil
-            :validated false
-            :details "This is an empty task with many fields"
-            :task-id 8}]
-        {  :title "ComplexTask2"
+           :progress 0
+           :deadline nil
+           :validated false
+           :details "This is an empty task with many fields"
+           :task-id 8}
+         { :title "ComplexTask2"
            :progress 50
            :deadline "12/03/2018"
            :validated false
            :details "This is a more advanced complex task"
-           :task-id 1}))
+           :task-id 1}]))
 
 (defn add-task
   [req]
@@ -55,26 +55,18 @@
 
 (defn edit-task
   [req]
-
   (let [body (get req :body)
         taskToModify (into {} (for [[k v] body]
                                [(keyword k) v]))
         response {:status 200
-                        :headers {"Content-Type" "text/html"}
-                        :body "request success"}]
-      (swap! tasks #(map (fn [_ itm]
+                  :headers {"Content-Type" "text/html"}
+                  :body "request success"}]
+      (swap! tasks #(map (fn [idx itm]
                            (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])))
-                              taskToModify itm))
-                        %))
+                              taskToModify itm)
+                           %)))
+      (println @tasks)
       response))
-
-(defn modify-fn
-  (println "I found the wei"))
-
-(defn find-task
-  [_ itm]
-  (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])
-                            modify-fn) itm)))
 
 (defroutes app
       (GET "/" [] "<h1>Welcome</h1>")
