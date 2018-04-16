@@ -9,25 +9,17 @@
 
 (def tasks
   (atom [{ :title "ComplexTask1"
-          :progress 0
-          :deadline nil
-          :validated false
-          :details "This is an empty task with many fields"
-          :task-id 8}
-         {:title "ComplexTask2"
-          :progress 50
-          :deadline "12/03/2018"
-          :validated false
-          :details "This is a more advanced complex task"
-          :task-id 1}]))
-
-(defn hello
-  []
-  (let [response {:status 200
-                  :headers {"Content-Type" "text/html"}
-                  :body "hello"}]
-
-      response))
+            :progress 0
+            :deadline nil
+            :validated false
+            :details "This is an empty task with many fields"
+            :task-id 8}]
+        {  :title "ComplexTask2"
+           :progress 50
+           :deadline "12/03/2018"
+           :validated false
+           :details "This is a more advanced complex task"
+           :task-id 1}))
 
 (defn add-task
   [req]
@@ -70,17 +62,22 @@
         response {:status 200
                         :headers {"Content-Type" "text/html"}
                         :body "request success"}]
-       (swap! tasks (map-indexed (fn [idx itm]
-                                   (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])))
-                                    taskToModify) itm)
-                                 @tasks))
-      ;(update-in tasks taskReturned taskToModify)
+      (swap! tasks #(map (fn [_ itm]
+                           (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])))
+                              taskToModify itm))
+                        %))
       response))
 
+(defn modify-fn
+  (println "I found the wei"))
+
+(defn find-task
+  [_ itm]
+  (if (= (:task-id itm) (parse-int (get-in req [:headers "taskid"])
+                            modify-fn) itm)))
 
 (defroutes app
       (GET "/" [] "<h1>Welcome</h1>")
-      (GET "/hello" [] (hello))
       (GET "/get-all-tasks" [] (get-all-tasks))
       (GET "/get-task-byid" [] get-task-byid)
       (POST "/add-task" [] add-task)

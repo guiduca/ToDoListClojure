@@ -2,12 +2,8 @@
 
 This is a training project
 
-To install the backend environment:
+Server http -->
 
-brew install lumo
+cd server-clojure
 
-npm install -g lumo-cljs
-
-npm install
-
---> rlwrap lein figwheel
+lein ring server-headless
